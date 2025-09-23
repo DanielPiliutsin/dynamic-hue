@@ -7,3 +7,5 @@ Terminal Emulator -> Kitty
 Status Bar -> Waybar
 Wallpaper -> SWWW
 </p>
+
+<p>Packages: mpv kitty waybar swww</p>
