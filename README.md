@@ -9,3 +9,7 @@ Wallpaper -> SWWW
 </p>
 
 <p>Packages: mpv kitty waybar swww thunar-archive-plugin zed thunar</p>
+
+<h2>Lime</h2>
+
+<h2>Minimal Blue</h2>
