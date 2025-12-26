@@ -1,5 +1,5 @@
 # Hyprland - <i>Dynamic Hue</i>
-modern hyprland configa focused on user productivity and elegance
+modern hyprland configs focused on user productivity and elegance
 
 <p>
 Packages
