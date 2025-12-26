@@ -13,3 +13,4 @@ Wallpaper -> SWWW
 <h2>Lime</h2>
 
 <h2>Minimal Blue</h2>
+<img src="https://github.com/DanielPiliutsin/hyprland-dotfiles/blob/main/git/assests/display.gif"> 
