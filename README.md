@@ -11,6 +11,6 @@ Wallpaper -> SWWW
 <p>Packages: mpv kitty waybar swww thunar-archive-plugin zed thunar</p>
 
 <h2>Lime</h2>
-
+<p>Comming Soon!</p>
 <h2>Minimal Blue</h2>
 <img src="https://github.com/DanielPiliutsin/hyprland-dotfiles/blob/main/git/assests/display.gif"> 
