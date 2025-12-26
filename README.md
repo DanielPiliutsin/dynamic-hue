@@ -1,4 +1,4 @@
-# dynamic-hue
+# Hyprland - <i>Lime</i>
 A modern hyprland config focused on user productivity and elegance
 
 <p>
