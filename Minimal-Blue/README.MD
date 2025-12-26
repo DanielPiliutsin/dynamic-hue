@@ -1,3 +1,4 @@
+<p>Not actively maintained!</p>
 <i><h1>Minimal Blue</h1></i>
 <img src="https://github.com/DanielPiliutsin/hyprland-dotfiles/blob/main/git/assests/display.gif"> 
 <p>Non NVIDIA support is not guaranteed</p>
