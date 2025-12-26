@@ -59,8 +59,9 @@ sudo systemctl enable --now reflector.timer
 <h3>Copy the Configuration Files:</h3>
 
 ```
-git clone --recursive https://github.com/DanielPiliutsin/hyprland-dotfiles
-cd hyprland-dotfiles
+git clone --recursive https://github.com/DanielPiliutsin/dynamic-hue
+cd dynamic-hue
+cd Minimal-Blue
 cp -rTi .config $HOME/.config
 cp -rTi .wallpapers $HOME/.wallpapers
 ```
