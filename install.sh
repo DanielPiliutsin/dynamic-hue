@@ -7,7 +7,7 @@ sleep 10
 
 # System Update
 
-sudo pacman -Syu
+sudo pacman -Syu git
 
 # Paru
 
