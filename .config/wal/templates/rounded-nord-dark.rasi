@@ -12,7 +12,7 @@ fg2:    {color7};
 fg3:    {color1};
 }}
 
-@import "template/rounded-template.rasi"
+@import ".config/rofi/template/rounded-template.rasi"
 
 element selected {{
     text-color: @bg1;
