@@ -1,0 +1,46 @@
+[global]
+font = Inter 10
+markup = full
+format = "<b>%s</b>\n%b"
+alignment = left
+vertical_alignment = center
+word_wrap = yes
+ellipsize = middle
+
+corner_radius = 12
+padding = 12
+horizontal_padding = 12
+frame_width = 2
+frame_color = "#31748f"
+
+separator_color = frame
+transparency = 0
+idle_threshold = 120
+follow = mouse
+origin = top-right
+
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+
+[urgency_low]
+background = "#191724"
+foreground = "#e0def4"
+frame_color = "#403d52"
+timeout = 4
+
+[urgency_normal]
+background = "#191724"
+foreground = "#e0def4"
+frame_color = "#31748f"
+timeout = 6
+
+[urgency_critical]
+background = "#26233a"
+foreground = "#eb6f92"
+frame_color = "#eb6f92"
+timeout = 0
+
+[progress]
+bar_height = 6
+bar_color = "#9ccfd8"
