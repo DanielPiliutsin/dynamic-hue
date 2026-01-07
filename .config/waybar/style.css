@@ -1,0 +1,267 @@
+@import "colors.css";
+@import "/home/daniel/.cache/wal/colors-waybar.css";
+
+* {
+    transition: none;
+    box-shadow: none;
+    font-family: Product Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#waybar {
+    background: @background1;
+    border-radius: 0px;
+    border: none;
+}
+
+#workspaces,
+#window {
+    border-radius: 13px;
+    margin: 6px 0;
+    margin-left: 6px;
+    padding: 0 10px;
+    font-weight: 500;
+    background: @base01;
+    color: @base05;
+    transition: all 0.3s ease-out;
+}
+
+#window {
+    padding: 0 12px;
+}
+
+window#waybar.empty #window {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background: transparent;
+}
+
+#workspaces button {
+    margin: 0 3px;
+    padding: 0;
+    color: @base02;
+    background: none;
+    border: none;
+    transition: all 0.2s ease-out;
+}
+
+#workspaces button.visible {
+}
+
+#workspaces button.active {
+    color: @color5;
+}
+
+#workspaces button.active:hover {
+    text-shadow: 0 0 4px @color5;
+}
+
+#workspaces button.urgent * {
+    color: @base08;
+    transition: all 0.2s ease-out;
+}
+
+#workspaces button.urgent:hover * {
+    text-shadow: 0 0 4px rgba(255, 0, 0, 1);
+}
+
+#mode,
+#battery,
+#bluetooth,
+#cpu,
+#disk,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#idle_inhibitor,
+#backlight,
+#mpd,
+#clock,
+#temperature,
+#language,
+#custom-notification {
+    margin: 6px 0px;
+    padding: 0 11px;
+    margin-right: 6px;
+    border-radius: 13px;
+    min-width: 15px;
+    background-color: @base01;
+    color: @base05;
+}
+
+#network {
+    transition: all 0.2s ease-out;
+}
+
+#network:hover {
+    text-shadow: 0 0 4px rgba(240, 241, 242, 1);
+}
+
+#custom-playerctl,
+#custom-cava {
+    margin: 6px 6px;
+    padding: 0 11px;
+    margin-right: 6px;
+    border-radius: 13px;
+    min-width: 8px;
+    background-color: @base01;
+    color: @color5;
+}
+
+#custom-playerctl.Playing:hover {
+    text-shadow: 0 0 4px @color5;
+}
+
+#custom-playerctl.Playing {
+    color: @color5;
+}
+
+#custom-playerctl.Paused {
+    color: #928374;
+}
+
+#custom-playerctl.Paused:hover {
+    text-shadow: 0 0 1px rgba(240, 241, 242, 1);
+}
+
+#language {
+    min-width: 16px;
+}
+
+#pulseaudio,
+#backlight {
+    min-width: 64px;
+    font-family: "Outfit, Thin";
+    margin: 6px 6px;
+    transition: all 0.2s ease-out;
+}
+
+#pulseaudio:hover {
+    text-shadow: 0 0 4px rgba(240, 241, 242, 1);
+}
+
+#clock {
+    margin: 6px 6px;
+    background-color: transparent;
+    color: @base05;
+    padding: 0 0;
+    font-family: "Outfit";
+    font-size: 18px;
+    transition: all 0.2s ease-out;
+}
+
+#clock:hover {
+    text-shadow: 0 0 4px rgba(240, 241, 242, 1);
+}
+
+#clock.calendar {
+    margin: 6px 0;
+    margin-left: 6px;
+    background-color: @base00;
+    color: @base05;
+    padding: 0 18px;
+    font-weight: 600;
+}
+
+#tray {
+    padding: 0 7px;
+    margin: 6px 0;
+    margin-right: 6px;
+    border-radius: 13px;
+    background-color: @base01;
+}
+
+#custom-weather {
+    margin: 6px 0;
+    border-radius: 13px;
+    margin-left: 6px;
+    padding: 0 20px;
+    background-color: @base01;
+    color: @base05;
+}
+
+#tray * {
+    padding: 0 4px;
+}
+
+#tray *:first-child {
+    border-left: none;
+}
+
+#mpd * {
+    min-width: 10px;
+    font-size: 11px;
+    font-family: JetBrainsMono;
+}
+
+#custom-powermenu {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 12px 6px 6px;
+    padding: 0 12px;
+    color: @base01;
+    background: radial-gradient(circle, #cf3247 10%, #7a0d1c 100%);
+    border-radius: 13px;
+    min-width: 15px;
+    transition: all 0.2s ease-out;
+}
+
+#custom-powermenu:hover {
+    background: radial-gradient(circle, #7a0d1c 10%, #cf3247 100%);
+    box-shadow: 0 0 4px rgba(207, 50, 71, 0.6);
+}
+
+#custom-launcher {
+    font-size: 16px;
+    margin: 6px 6px 6px 12px;
+    padding: 0 24px;
+    border-radius: 13px;
+    min-width: 17px;
+    color: @base00;
+    background: radial-gradient(circle, @color5 10%, @color13 100%);
+    transition: all 0.2s ease-out;
+}
+
+#custom-launcher:hover {
+    background: radial-gradient(circle, @color13 10%, @color5 100%);
+    box-shadow: 0 0 4px @color5;
+}
+
+#battery {
+    padding: 0 16px;
+    background: @base07;
+    color: @base01;
+    font-family: "Outfit, Thin";
+}
+
+#battery.charging {
+    padding: 0 16px;
+    background: @base07;
+    background-size: 400% 400%;
+}
+
+#battery.warning {
+    background-color: @base09;
+}
+
+#battery.critical {
+    background-color: @base08;
+}
+
+#temperature.critical {
+    color: @base08;
+}
+
+tooltip {
+    border-radius: 20px;
+    background-color: @base00;
+}
+
+tooltip * {
+    color: @base05;
+    font-size: 16px;
+    padding: 12px;
+}

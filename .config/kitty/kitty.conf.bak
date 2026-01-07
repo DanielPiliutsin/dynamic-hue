@@ -1,0 +1,25 @@
+shell fish
+# font_family Outfit
+confirm_os_window_close -1
+confirm_os_window_close 0
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
+
+font_size 13.0
+sync_to_monitor yes
+window_padding_width 25
+include themes/Rose-Pine.conf
+color0 #1e1e2e
+color8 #1e1e2e
+background_opacity 0.80
+#hide_window_decorations yes
+#confirm_os_window_close 0
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="OpenDyslexicM Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
