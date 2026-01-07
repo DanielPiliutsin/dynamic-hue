@@ -17,6 +17,10 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
+# Exit Paru Directory
+
+cd ..
+
 # Essential Package Installation
 
 echo "Installing Packages With Paru..."
