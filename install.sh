@@ -53,9 +53,9 @@ sudo cp wonderblend.regular.otf /usr/share/fonts/
 # Dotfile Installation
 
 echo "Copying Dotfiles..."
-cp -rT .config $HOME/.config
-cp -rT .themes $HOME/.themes
-cp -rT .wallpapers $HOME/.wallpapers
+cp -rTi .config $HOME/.config
+cp -rTi .themes $HOME/.themes
+cp -rTi .wallpapers $HOME/.wallpapers
 
 # Pywal linking
 
