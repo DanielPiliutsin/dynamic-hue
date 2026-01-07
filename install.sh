@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "EXPIREMENTAL - UNEXPECTED RESULTS MAY OCCUR"
 echo "Installing in 10 Seconds ~"
 echo "WARNING: Make sure to back up your current config!"
 
@@ -20,7 +21,7 @@ makepkg -si
 
 echo "Installing Packages With Paru..."
 echo "Select default, 'y', or '1' when asked..."
-paru -S font-viewer python swww thunar kitty waybar rofi rofi-emoji fish udiskie hyprlock wlogout playerctl nerd-fonts qt5ct neofetch btop zen-browser-bin normcap hyprshot cava appimagelauncher gvfs android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick zed dunst noto-fonts-emoji brightnessctl xdg-desktop-portal-hyprland python-pywal16 clock-tui ffmpeg-audio-thumbnailer nmgui axel unzip
+paru -S gnome-font-viewer python swww thunar kitty waybar rofi rofi-emoji fish udiskie hyprlock wlogout playerctl nerd-fonts qt5ct neofetch btop zen-browser-bin normcap hyprshot cava appimagelauncher gvfs android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick zed dunst noto-fonts-emoji brightnessctl xdg-desktop-portal-hyprland python-pywal16 clock-tui ffmpeg-audio-thumbnailer nmgui axel unzip
 
 # Temporary directory creation
 
