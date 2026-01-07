@@ -21,7 +21,7 @@ makepkg -si
 <p>3. Install Packages</p>
 
 ```
-paru -S gnome-font-viewer python swww thunar kitty waybar rofi rofi-emoji fish udiskie hyprlock wlogout playerctl nerd-fonts qt5ct neofetch btop zen-browser-bin normcap hyprshot cava appimagelauncher gvfs android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick zed dunst noto-fonts-emoji brightnessctl xdg-desktop-portal-hyprland python-pywal16 clock-tui ffmpeg-audio-thumbnailer nmgui-bin axel unzip
+paru -S gnome-font-viewer python swww thunar kitty waybar rofi rofi-emoji fish udiskie hyprlock wlogout playerctl nerd-fonts qt5ct neofetch btop zen-browser-bin normcap hyprshot cava appimagelauncher gvfs android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick zed dunst noto-fonts-emoji brightnessctl xdg-desktop-portal-hyprland python-pywal16 clock-tui ffmpeg-audio-thumbnailer nmgui-bin axel unzip ascii-rain-git
 ```
 
 <p>4. Install Dotfiles</p>
