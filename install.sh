@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "EXPIREMENTAL - UNEXPECTED RESULTS MAY OCCUR"
+echo "HIGHLY EXPIREMENTAL - UNEXPECTED RESULTS MAY OCCUR"
 echo "Installing in 10 Seconds ~"
-echo "WARNING: Make sure to back up your current config!"
+echo "WARNING: This script is intended to only be used on a fresh installation"
 
 sleep 10
 
