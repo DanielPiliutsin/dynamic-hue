@@ -1,5 +1,8 @@
 # Hyprland - <i>Dynamic Hue</i>
 <p>a modern hyprland config focused on user productivity and elegance</p>
+<img src="https://github.com/DanielPiliutsin/dynamic-hue/blob/main/git_assets/logo.jpeg?raw=true">
+
+<h1>Preview: </h1>
 <img src="https://github.com/DanielPiliutsin/dynamic-hue/blob/main/git_assets/preview.gif?raw=true">
 
 <h1>Installation: </h1>
