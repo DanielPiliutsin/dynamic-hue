@@ -70,3 +70,17 @@ sudo reboot
 
 <h2>Automatic - EXPERIMENTAL</h2>
 <p>Install the <a href="https://github.com/DanielPiliutsin/dynamic-hue/raw/refs/heads/main/install.sh">script</a> and execute it in terminal.</p>
+
+<h1>FAQ: </h1>
+<p>
+1. Where do I add my own wallpapers?
+~ Add them to the ~/.wallpapers directory to be used. I reccomend to remove the default wallpapers, they are intended to be placeholders.
+
+2. How do I change the lockscreen wallpaper, it doesnt look good?
+~ Replace wallpaper.jpg with the image you desire in .config/hypr/assests/Photos/
+
+3. What wallpapers are reccomended?
+~ Pixel art and high contrast wallpapers do the best! This <a href="https://github.com/Lunaris-Project/Lunarry">repo</a> provides a great selection.
+
+  
+</p>
