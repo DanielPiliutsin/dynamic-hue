@@ -73,13 +73,13 @@ sudo reboot
 
 <h1>FAQ: </h1>
 <p>
-1. Where do I add my own wallpapers?
+ 1. Where do I add my own wallpapers?
 ~ Add them to the ~/.wallpapers directory to be used. I reccomend to remove the default wallpapers, they are intended to be placeholders.
 
-2. How do I change the lockscreen wallpaper, it doesnt look good?
+ 2. How do I change the lockscreen wallpaper, it doesnt look good?
 ~ Replace wallpaper.jpg with the image you desire in .config/hypr/assests/Photos/
 
-3. What wallpapers are reccomended?
+ 3. What wallpapers are reccomended?
 ~ Pixel art and high contrast wallpapers do the best! This <a href="https://github.com/Lunaris-Project/Lunarry">repo</a> provides a great selection.
 
   
