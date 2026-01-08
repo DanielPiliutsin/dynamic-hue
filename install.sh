@@ -53,7 +53,7 @@ echo "Copying fonts to system"
 sudo cp fonts/Outfit-Regular.otf /usr/share/fonts/
 sudo cp fonts/Outfit-Thin.otf /usr/share/fonts/
 sudo cp Tanker_Complete/Fonts/OTF/Tanker-Regular.otf /usr/share/fonts/
-sudo cp wonderblend.regular.otf /usr/share/fonts/
+sudo cp "Wonderblend Demo.otf" /usr/share/fonts/
 
 # Dotfile Installation
 
