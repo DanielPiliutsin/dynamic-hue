@@ -25,7 +25,7 @@ cd ..
 
 echo "Installing Packages With Paru..."
 echo "Select default, 'y', or '1' when asked..."
-paru -S gnome-font-viewer python swww thunar kitty waybar rofi rofi-emoji fish udiskie hyprlock wlogout playerctl nerd-fonts qt5ct neofetch btop zen-browser-bin normcap hyprshot cava appimagelauncher gvfs android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick zed dunst noto-fonts-emoji brightnessctl xdg-desktop-portal-hyprland python-pywal16 clock-tui ffmpeg-audio-thumbnailer nmgui-bin axel unzip ascii-rain-git
+paru -S gnome-font-viewer python swww thunar kitty waybar rofi rofi-emoji fish udiskie hyprlock wlogout playerctl nerd-fonts qt5ct neofetch btop zen-browser-bin normcap hyprshot cava appimagelauncher gvfs android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick zed dunst noto-fonts-emoji brightnessctl xdg-desktop-portal-hyprland python-pywal16 clock-tui ffmpeg-audio-thumbnailer nmgui-bin axel unzip ascii-rain-git misfortune
 
 # Temporary directory creation
 
@@ -71,6 +71,11 @@ echo "Linking Files..."
 ln $HOME/.cache/wal/cavaconfig $HOME/.config/cava/config
 ln $HOME/.cache/wal/gtk.3.0.css $HOME/.themes/pywall-dynamic/gtk-3.0/gtk.css
 ln $HOME/.cache/wal/gtk.css $HOME/.themes/pywall-dynamic/gtk-4.0/gtk.css
+
+# Tclock
+
+echo "Making tclock executable..."
+chmod +x $HOME/.cache/wal/tclock.sh
 
 # Done
 
