@@ -51,6 +51,7 @@ sudo cp wonderblend.regular.otf /usr/share/fonts/
 
 ```
 wal -i "Lime/Assets/lime_preview.png"
+chmod +x $HOME/.cache/wal/tclock.sh
 ln $HOME/.cache/wal/cavaconfig $HOME/.config/cava/config
 ln $HOME/.cache/wal/gtk.3.0.css $HOME/.themes/pywall-dynamic/gtk-3.0/gtk.css
 ln $HOME/.cache/wal/gtk.css $HOME/.themes/pywall-dynamic/gtk-4.0/gtk.css
