@@ -77,7 +77,7 @@ sudo reboot
 ~ Add them to the ~/.wallpapers directory to be used.
 
 <b> 2. How do I change the lockscreen wallpaper?</b>
-~ Replace wallpaper.jpg with the image you desire in .config/hypr/assests/Photos/
+~ Replace wallpaper.jpg with the image you desire in ~/.config/hypr/assests/Photos/
 
 <b> 3. What wallpapers are reccomended to add?</b>
 ~ Pixel art and high contrast wallpapers do the best! This <a href="https://github.com/Lunaris-Project/Lunarry">repo</a> provides a great selection.
