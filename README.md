@@ -1,5 +1,5 @@
 # Hyprland - <i>Dynamic Hue</i>
-<p>pywal16 centered Hyprland configuration</p>
+<p>A pywal16 centered Hyprland configuration</p>
 <img src="https://github.com/DanielPiliutsin/dynamic-hue/blob/main/git_assets/logo.jpeg?raw=true" width="300" height="300">
 
 <h1>Preview: </h1>
