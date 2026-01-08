@@ -1,7 +1,7 @@
 # Hyprland - <i>Dynamic Hue</i>
 <p>a modern hyprland config focused on user productivity and elegance</p>
 
-<h1>Installation: </h1>h1>
+<h1>Installation: </h1>
 <h2>Manual ~ Reccomended</h2>
 <p>1. Update System and install git </p>
 
