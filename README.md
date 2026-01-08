@@ -63,3 +63,6 @@ ln $HOME/.cache/wal/gtk.css $HOME/.themes/pywall-dynamic/gtk-4.0/gtk.css
 ```
 sudo reboot
 ```
+
+<h2>Automatic - EXPIREMENTAL</h2>
+<p>Install the <a href="https://github.com/DanielPiliutsin/dynamic-hue/raw/refs/heads/main/install.sh">script</a> and execute it in terminal.</p>
