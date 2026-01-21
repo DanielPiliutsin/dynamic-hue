@@ -82,5 +82,7 @@ sudo reboot
 <b> 3. What wallpapers are reccomended to add?</b>
 ~ Pixel art and high contrast wallpapers do the best! This <a href="https://github.com/Lunaris-Project/Lunarry">repo</a> provides a great selection.
 
+<b> 4. My laptop battery drains very fast with this config, what can i do?</b>
+~ It is reccomended to use the <a href="https://wiki.archlinux.org/title/Powertop">Powertop Autotune Service</a> when using a laptop.
   
 </p>
