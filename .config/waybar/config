@@ -5,10 +5,11 @@
     "position": "top",
     "height": 48,
     "margin": "0, 0, 0, 0",
+    "output": "DP-1",
 
     "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/playerctl", "custom/cava"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "network", "battery", "custom/powermenu"],
+    "modules-right": ["custom/screen_recorder", "tray", "pulseaudio", "network", "battery", "custom/powermenu"],
 
     // MODULE CONFIG
 
@@ -79,8 +80,8 @@
         "active-only": false,
         "all-outputs": true,
         "disable-scroll": false,
-        "on-scroll-up": "$HOME/.config/hypr/scripts/next-workspace.sh",
-        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-scroll-up": "$HOME/.config/hypr/scripts/hue.sh -n",
+        "on-scroll-down": "$HOME/.config/hypr/scripts/hue.sh -p",
 		"format": "{icon}",
 		"on-click": "activate",
 		"format-icons": {
@@ -100,7 +101,7 @@
     },
 
     "custom/powermenu": {
-        "format": " ",
+        "format": "",
         "on-click": "wlogout",
         "on-click-right": "wlogout",
         "tooltip": false
@@ -119,5 +120,9 @@
         "Playing": "󰒮 󰐌 󰒭",
         "Paused": "󰒮 󰏥 󰒭"
         },
+    },
+
+    "custom/screen_recorder": {
+       "format": ""
     },
 }
