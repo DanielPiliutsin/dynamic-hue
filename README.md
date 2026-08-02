@@ -1,5 +1,5 @@
 # Hyprland - <i>Dynamic Hue</i>
-<h3>⚠️ Hyprland Lua config rewrite soon, current versions will not work in .57 and beyond</h3>
+<h3>🟡 Basic lua rewrite is out, lua still in beta </h3>
 <p>A pywal16 centered Hyprland configuration</p>
 <img src="https://github.com/DanielPiliutsin/dynamic-hue/blob/main/git_assets/logo.jpeg?raw=true" width="300" height="300">
 
