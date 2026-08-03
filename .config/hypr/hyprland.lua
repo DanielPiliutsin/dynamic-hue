@@ -78,7 +78,8 @@ hl.permission("/usr/(bin|local/bin)/hyprshot", "screencopy", "allow")
 hl.permission("/usr/(bin|local/bin)/hyprlock", "screencopy", "allow")
 hl.permission("/usr/(lib|libexec|lib64)/xdg-desktop-portal-hyprland", "screencopy", "allow")
 hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
-
+hl.permission("/usr/(bin|local/bin)/grim", "screencopy", "allow")
+hl.permission("/usr/(bin|local/bin)/hyprpicker", "screencopy", "allow")
 
 -----------------------
 ---- LOOK AND FEEL ----
@@ -277,6 +278,11 @@ hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = tr
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+
+
+-- Screenshot
+hl.bind("print", hl.dsp.exec_cmd("bash $HOME/.config/hypr/scripts/hue.sh --screenshotfull"))
+hl.bind("CTRL + print", hl.dsp.exec_cmd("bash $HOME/.config/hypr/scripts/hue.sh --screenshot"))
 
 -- Theme Control
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("bash $HOME/.config/hypr/scripts/hue.sh -r"))
