@@ -16,6 +16,18 @@ while test $# -gt 0; do
       echo "-o, --output-dir=DIR      specify a directory to store output in"
       exit 0
       ;;
+    --screenshot)
+     shift
+     hyprshot --freeze --mode region --output-folder "$HOME/Pictures/Screenshots/"
+     paplay "$HOME/.config/hypr/assests/sounds/camera-shutter.ogg"
+     shift
+    ;;
+    --screenshotfull)
+     shift
+     paplay "$HOME/.config/hypr/assests/sounds/camera-shutter.ogg"
+     hyprshot -m output -m active --output-folder "$HOME/Pictures/Screenshots/"
+     shift
+     ;;
     -s)
       shift
       paplay "$HOME/.config/hypr/assests/sounds/startup.mp3"
